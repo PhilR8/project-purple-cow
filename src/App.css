@@ -1,3 +1,42 @@
 .App {
-  text-align: center;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.App > div {
+  display: flex;
+  align-items: center;
+}
+
+.cow-emoji {
+  flex: 0 1 65px;
+  align-items: center;
+  font-size: 40px;
+  filter: brightness(0.5) sepia(1) saturate(10000%) hue-rotate(280deg);
+}
+
+.count {
+  color: #FFF;
+  flex: 1 1;
+  font-size: 25vw;
+}
+
+.incrementor {
+  flex: 0 1 150px;
+  width: 75%;
+}
+
+.incrementor > button {
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  color: #FFF;
+  border: 1px solid #FFF;
+  border-radius: 50px;
+  width: 100%;
+  margin-bottom: 50px;
 }

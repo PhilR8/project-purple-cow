@@ -24,7 +24,8 @@ function App() {
 
   return (
     <div className="App">
-      <div className="count">{count}</div>
+      <div className="cow-emoji">&#128004;</div>
+      <div className="count">{count.toLocaleString()}</div>
       <div className="incrementor">
         <Button variant="outlined" size="large" onClick={clickHandler}>
           +1
