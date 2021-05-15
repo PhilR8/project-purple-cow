@@ -10,24 +10,26 @@
 
 .App > div {
   display: flex;
-  align-items: center;
 }
 
-.cow-emoji {
+.cow-brand {
   flex: 0 1 65px;
   align-items: center;
   font-size: 40px;
-  filter: brightness(0.5) sepia(1) saturate(10000%) hue-rotate(280deg);
+  align-items: center;
 }
 
 .count {
   color: #FFF;
   flex: 1 1;
   font-size: 25vw;
+  align-items: center;
 }
 
 .incrementor {
+  display: flex;
   flex: 0 1 150px;
+  align-items: flex-start;
   width: 75%;
 }
 
@@ -38,5 +40,5 @@
   border: 1px solid #FFF;
   border-radius: 50px;
   width: 100%;
-  margin-bottom: 50px;
+  margin-top: 10px;
 }
